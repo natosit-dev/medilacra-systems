@@ -103,5 +103,17 @@
         "repo": "natosit-dev/words_n_stuff",
         "branch": "main",
         "path": "2011/What_Took_EHR_So_Long_3.11.2011_v1.md"
+    },
+    {
+        "id": "state-of-health-information-exchange-massachusetts-edition",
+        "title": "State of Health Information Exchange — Massachusetts Edition",
+        "date": "2012-06-08",
+        "sections": [
+            "writing"
+        ],
+        "type": "historical conference report",
+        "repo": "natosit-dev/words_n_stuff",
+        "branch": "main",
+        "path": "2012/State_of_Health_Information_Exchange_Massachusetts_Edition_6.8.2012_v1.md"
     }
 ]
