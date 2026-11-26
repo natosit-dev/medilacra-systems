@@ -4,19 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Medilacra Systems</title>
+
+    <style>
+        body {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            font-family: Georgia, serif;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        header {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+
+        header h1 {
+            margin-bottom: 5px;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+        }
+
+        main {
+            margin: 30px 0;
+        }
+
+        article {
+            max-width: 760px;
+            overflow-wrap: anywhere;
+            overflow-x: auto;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 16px;
+            overflow-x: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            max-width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        .metadata {
+            color: #666;
+            font-size: 0.85em;
+        }
+
+        footer {
+            border-top: 1px solid #ccc;
+            padding-top: 16px;
+            font-size: 0.85em;
+        }
+    </style>
 </head>
 <body>
-    <h1>Medilacra Systems</h1>
-    <p>Stuff I've been working on.</p>
-    <ul>
-        <li>Blog</li>
-        <li>DiScO</li>
-        <li>Medilacra</li>
-        <li>Experiments</li>
-        <li>Data</li>
-        <li>Other Tools</li>
-        <li><a href="writing/">Writing</a></li>
-    </ul>
-    <a href="https://github.com/natosit-dev">GitHub</a>
+    <header>
+        <h1><a href="./">Medilacra Systems</a></h1>
+        <p>Stuff I've been working on.</p>
+        <nav id="navigation"></nav>
+    </header>
+
+    <main id="content">Loading catalog...</main>
+
+    <footer>
+        <a href="https://github.com/natosit-dev">GitHub</a>
+    </footer>
+
+    <script type="module" src="app.js"></script>
 </body>
 </html>
