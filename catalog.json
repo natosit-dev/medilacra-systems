@@ -43,5 +43,17 @@
         "repo": "natosit-dev/Disco-STU",
         "branch": "main",
         "path": "README.md"
+    },
+    {
+        "id": "human-oracle-forgot-the-insert-statement",
+        "title": "Field Note: The Human Oracle Forgot the INSERT Statement",
+        "date": "2026-11-17",
+        "sections": [
+            "disco"
+        ],
+        "type": "field note",
+        "repo": "natosit-dev/Disco-STU",
+        "branch": "main",
+        "path": "docs/field-notes/2026-11-17_SERA_POST_FREEZE_CLARIFICATION_FINGER_IMPRINT_UIDS.md"
     }
 ]
