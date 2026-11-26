@@ -91,5 +91,17 @@
         "repo": "natosit-dev/medilacra",
         "branch": "feature/reality-interface",
         "path": "README.md"
+    },
+    {
+        "id": "what-took-ehr-so-long",
+        "title": "Bio-Digital Jazz",
+        "date": "2011-03-11",
+        "sections": [
+            "blog"
+        ],
+        "type": "blog post",
+        "repo": "natosit-dev/words_n_stuff",
+        "branch": "main",
+        "path": "2011/What_Took_EHR_So_Long_3.11.2011_v1.md"
     }
 ]
