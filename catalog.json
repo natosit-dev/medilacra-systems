@@ -55,5 +55,17 @@
         "repo": "natosit-dev/Disco-STU",
         "branch": "main",
         "path": "docs/field-notes/2026-11-17_SERA_POST_FREEZE_CLARIFICATION_FINGER_IMPRINT_UIDS.md"
+    },
+    {
+        "id": "structured-sparsity",
+        "title": "Structured Sparsity Experiment — Synthesis",
+        "date": "2026-08-14",
+        "sections": [
+            "experiments"
+        ],
+        "type": "experiment",
+        "repo": "natosit-dev/medilacra",
+        "branch": "experiment/structured-sparsity",
+        "path": "experiments/structured_sparsity/results/STRUCTURED_SPARSITY_SYNTHESIS_20260814T122000-0400.md"
     }
 ]
