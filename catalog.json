@@ -32,5 +32,16 @@
         "repo": "natosit-dev/sdida_data_tool",
         "branch": "main",
         "path": "README.md"
+    },
+    {
+        "id": "disco-stu",
+        "title": "DiScO STU",
+        "sections": [
+            "disco"
+        ],
+        "type": "project",
+        "repo": "natosit-dev/Disco-STU",
+        "branch": "main",
+        "path": "README.md"
     }
 ]
