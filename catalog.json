@@ -79,5 +79,17 @@
         "repo": "natosit-dev/words_n_stuff",
         "branch": "main",
         "path": "2026/What_Is_Healthcare_Data_8.11.2026_v1.md"
+    },
+    {
+        "id": "reality-interface",
+        "title": "Reality Interface",
+        "date": "2026-08-27",
+        "sections": [
+            "experiments"
+        ],
+        "type": "experiment",
+        "repo": "natosit-dev/medilacra",
+        "branch": "feature/reality-interface",
+        "path": "README.md"
     }
 ]
