@@ -5,78 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Medilacra Systems</title>
 
-    <style>
-        body {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-            font-family: Georgia, serif;
-            font-size: 18px;
-            line-height: 1.7;
-        }
-
-        header {
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 20px;
-        }
-
-        header h1 {
-            margin-bottom: 5px;
-        }
-
-        nav {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px 20px;
-        }
-
-        main {
-            margin: 30px 0;
-        }
-
-        article {
-            max-width: 760px;
-            overflow-wrap: anywhere;
-            overflow-x: auto;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        pre {
-            background: #f4f4f4;
-            padding: 16px;
-            overflow-x: auto;
-        }
-
-        table {
-            border-collapse: collapse;
-            max-width: 100%;
-        }
-
-        th, td {
-            border: 1px solid #ccc;
-            padding: 8px;
-        }
-
-        .metadata {
-            color: #666;
-            font-size: 0.85em;
-        }
-
-        footer {
-            border-top: 1px solid #ccc;
-            padding-top: 16px;
-            font-size: 0.85em;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1><a href="./">Medilacra Systems</a></h1>
-        <p>Stuff I've been working on.</p>
+        <div class="brand">
+            <a href="./" class="brand-mark" aria-label="Home">
+                <svg class="site-mark" viewBox="0 0 140 100" aria-hidden="true">
+                    <g class="traces">
+                        <path d="M16 18 L70 50 L124 50 M16 82 L70 50"/>
+                    </g>
+                    <circle cx="16" cy="18" r="11" class="bronze"/>
+                    <circle cx="16" cy="82" r="11" class="bronze"/>
+                    <circle cx="70" cy="50" r="11" class="silver"/>
+                    <circle cx="124" cy="50" r="11" class="gold"/>
+                </svg>
+            </a>
+            <div>
+                <h1><a href="./">medilacra<span>.systems</span></a></h1>
+                <p>Stuff I've been working on.</p>
+            </div>
+        </div>
         <nav id="navigation"></nav>
     </header>
 
